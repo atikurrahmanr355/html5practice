@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semantic Tags</title>
+    <title>HTML5|Semantic Tags</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <header>
+        <aside class="logo">
+            Sementic Tags
+        </aside>
         <nav>
             <ul>
                 <li><a href="">link-1</a></li>
@@ -28,12 +33,71 @@
                 </nav>
             </aside>
         </section>
-        <section id="blogs">
-            <article class="blog">
-                <h3>blog</h3>
+        <section id="main-area">
+            <article class="reg-form">
+                <div>
+                    <div class="form-title">Registration Form</div>
+                <form action="">
+                    <p><label for="name">Full Name: <input type="text" name="name" id="name"></label></p>
+                    <p>
+                        <label for="pnone">Phone Number: <input type="number" name="phone" id="phone"></label>
+                    </p>
+                    <p>
+                        <label for="email">E-mail: <input type="email" name="email" id="email"></label>
+                    </p>
+                    
+                    <fieldset>
+                        <legend>Select Your Gender Below</legend>
+                        <label for="mail"> <input type="radio" name="gender" id="mail"> Mali</label>
+                        <label for="femail"><input type="radio" name="gender" id="femail"> Femail: </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Select Your Subject Below</legend>
+                        <label for="physics"><input type="checkbox" name="subject" id="physics"> Physics: </label>
+                        <label for="chemistry"><input type="checkbox" name="subject" id="chemistry"> Chemistry: </label>
+                        <label for="mathematics"><input type="checkbox" name="ubject" id="mathematics"> Mathematics: </label> 
+                        <label for="cse"><input type="checkbox" name="subject" id="cse"> Computer Science: </label>
+                    </fieldset>
+                    <label for="comment">Leave a comment: <textarea name="comment" id="comment" rows="4" cols="8"></textarea></label>
+                    <button type="submit">Submit</button>
+                </form>
+                </div>
             </article>
-            <article class="blog">
-                <h3>blog</h3>
+            <article class="member-table">
+                <table>
+                    <caption>Membership Table</caption>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>NAME</th>
+                            <th>COMPANY</th>
+                            <th>SAMALY</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Aminul</td>
+                            <td>Apple</td>
+                            <td>$1200</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Shaiful</td>
+                            <td>Facebook</td>
+                            <td>$1300</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Atikur</td>
+                            <td>Google</td>
+                            <td>$1800</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+
+                    </tfoot>
+                </table>
             </article>
 
         </section>
