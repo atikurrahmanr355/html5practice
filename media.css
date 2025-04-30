@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width: 100wh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+.food{
+    max-width: 30%;
+    border: 1px solid red;
+    margin: 2%;
+    padding: 20px;
+    border-radius: 10px;
+    height: 300px;
+}
+.food img{
+    height: 70%;
+    width: 100%;
+}
+/* @media (max-width:760px) {
+    .container{
+        background-color: black;
+        display: flex;
+        box-sizing: border-box;
+    }
+    .container .food{
+        background-color: red;
+    }
+    .container .food p{
+        background-color: pink;
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
+@media (min-width:1200px) {
+    .container .food p{
+        background-color: yellow;
+        padding: 5px;
+        border-radius: 5px;
+    }
+} */

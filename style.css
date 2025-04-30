@@ -145,6 +145,7 @@ table td,th{
 }
 footer{
     height: 30px;
+    width: 76wh;
     display: flex;
     justify-content: center;
     align-items: center;

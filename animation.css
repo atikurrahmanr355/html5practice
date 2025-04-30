@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.boxs{
+    height: 150px;
+    width: 100wh;
+    background-image: linear-gradient(to left,black,rgb(95, 73, 73));
+}
+.ball{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    animation: animat 5s infinite alternate;
+}
+/* .ball:hover{
+    animation: animat 5s;
+} */
+@keyframes animat {
+    0%{
+        transform: translate(0px);
+    }
+    25%{
+        margin-left: 200px;
+        background-color: red;
+        margin-top: 100px;
+
+    }
+    50%{
+        margin-left: 300px;
+        background-color: black;
+        margin-bottom: 100px;
+
+    }
+    75%{
+        margin-left: 400px;
+        background-color: yellow;
+        margin-top: 100px;
+
+    }
+    100%{
+        margin-left: 400px;
+        background-color: blue;
+        margin-bottom: 100px;
+
+    }
+
+
+    
+}
